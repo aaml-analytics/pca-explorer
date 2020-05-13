@@ -68,7 +68,7 @@
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#hover-options">Hover options</a>
     </li>
-    <li class="toctree-l3"><a class="reference internal" href="#remove-outliers-and-deciding-between-using-a-correlation-or-covariance-matrix">Remove outliers and deciding between using a correlation or covariance matrix</a>
+    <li class="toctree-l3"><a class="reference internal" href="#removing-outliers-and-matrix-type-options">Removing outliers and matrix type options</a>
     </li>
         </ul>
     </li>
@@ -293,7 +293,7 @@ The Principal Component Analysis Visualisation Tools runs PCA for the user and p
   <img width="550" height="50" src="https://raw.githubusercontent.com/aaml-analytics/mof-explorer/master/MkDocs/hover-options.png">
 </p>
 <strong><em>Figure 8: Hover options </em></strong> <br></p>
-<h4 id="remove-outliers-and-deciding-between-using-a-correlation-or-covariance-matrix"><strong> Remove outliers and deciding between using a correlation or covariance matrix </strong></h4>
+<h4 id="removing-outliers-and-matrix-type-options"><strong> Removing outliers and matrix type options </strong></h4>
 <p>On all plots and downloadable data tables, users can determine if they would like to remove any outliers present in their data. Any variable that contains values above and below 3 standard deviations from the mean are removed. <br> The user can also determine if they would like the tool to use a covariance or correlation matrix. When the data is standardised (scaled) by removing the mean and scaling to unit variance, the covariance matrix becomes the correlation matrix. When the variables are of similar scales a covariance matrix is more appropriate. A correlation matrix is used when the variables in the data set have varying scales (order of magnitudes). Using data with different orders of magnitude will result in the variables with the highest variance dominating the first principal component (the variance maximising property). Standardising data will ensure all variables have equal variance. It must be noted that standardising your data set assumes that your data follows a normal distribution. Use the covariance matrix when the variance of your variables are important.</p>
 <h2 id="scree-plots"><strong>Scree Plots</strong></h2>
 <p><p>
@@ -435,5 +435,5 @@ CB3 0AS</p>
 
 <!--
 MkDocs version : 1.1
-Build Date UTC : 2020-05-13 21:20:26
+Build Date UTC : 2020-05-13 21:25:19
 -->
